@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXIETY STUDIOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./scripts.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="icon" type="image/png" href="./images/nxiety-logo-black.png">
+</head>
+<body>
+    <header>
+        <!--Logo på hjemmesiden-->
+        <a href="#" class="logo-holder">
+            <div class="logo"><img src="images/nxiety-logo.png" alt="NXIETYLOGO"></div>
+        </a>
+
+        <!--Navigation af hjemmesiden (navbar)-->
+        <nav>
+            <ul id="menu"> 
+                <li> <a href="index.html" >Home</a> </li>
+                <li> <a href="contact.html" class="button">Contact Me</a> </li>
+            </ul>
+            <!--Javascript til burgermenu på Mobil størrelse af hjemmesiden-->
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                </svg> 
+            </a>
+        </nav>
+    </header>
+    <main>
+
+        <!--Hero sektion-->
+        <section class="hero container">
+            <!--Hero sektion (venstre)-->
+            <div class="hero-left">
+                <div>
+                    <!--overskrift på venstre hero sektion-->
+                    <h1>
+                        <small>
+                            Hi I'm
+                        </small>
+                        Frederik Løvstad
+                    </h1>
+                    <!--Tekst venstre side hero-->
+                    <p>
+                        I'm a multimedia designer from Odense, Denmark, dedicated to helping startups shine. I create striking web designs, animations, and interactive experiences tailored to your needs. With a fast-working and precise approach, I turn bold ideas into digital realities that captivate and convert.
+                        <span>
+                            Let's build a standout presence for your startup. 
+                            <b>
+                                Ready to begin?
+                            </b>
+                        </span> 
+                    </p>
+                    <!--CTA knap på venstre side hero-->
+                    <div class="call-to-action">
+                        <a href="contact.html" class="button">
+                            Contact Me
+                        </a>
+                    </div>
+                    <!--Sociale links i venstre side hero-->
+                    <div class="social-links">
+                        <a href="https://github.com/Loevstad14">
+                            <img src="images/githublogo.png"
+                            alt="Github"
+                            width="48" />
+                        </a> 
+                        <a href="https://www.linkedin.com/in/frederik-l%C3%B8vstad-5641a9328/">
+                            <img src="images/linkedinlogo.png"
+                            alt="Linkedin"
+                            width="48" />
+                        </a> 
+                        <a href="https://www.instagram.com/frederikloevstad/">
+                            <img src="images/instagram.png"
+                            alt="Instagram"
+                            width="48" />
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <!--Hero sektion (højre)-->
+            <div class="hero-right">
+                <img src="images/billede-frederik-2.png"
+                alt="Home picture"/>
+            </div>
+        </section>
+
+        <!--Logo sektion (rullende)-->
+        <section class="logos container">
+        <div class="marquee">
+            <!--Alle logoerne-->
+            <div class="track">
+                <img src="images/figma-logo.png"
+                alt="Figma" width="48" />
+                <img src="images/html-logo.png"
+                alt="html" width="48" />
+                <img src="images/css-logo.png"
+                alt="CSS" width="48" />
+                <img src="images/visualstudioscode.png"
+                alt="Visualstudioscode" width="48" />
+                <img src="images/photoshop-logo.png"
+                alt="Photoshop" width="48" />
+                <img src="images/aftereffects-logo.png"
+                alt="Aftereffects" width="48" />
+                <img src="images/premierepro-logo.png"
+                alt="Premierepro" width="48" />
+                <img src="images/indesign-logo.png"
+                alt="Indesign" width="48" />
+                <img src="images/illustrator-logo.png"
+                alt="Illustrator" width="48" />
+                <img src="images/figma-logo.png"
+                alt="Figma" width="48" />
+                <img src="images/html-logo.png"
+                alt="html" width="48" />
+                <img src="images/css-logo.png"
+                alt="CSS" width="48" />
+                <img src="images/visualstudioscode.png"
+                alt="Visualstudioscode" width="48" />
+                <img src="images/photoshop-logo.png"
+                alt="Photoshop" width="48" />
+                <img src="images/aftereffects-logo.png"
+                alt="Aftereffects" width="48" />
+                <img src="images/premierepro-logo.png"
+                alt="Premierepro" width="48" />
+                <img src="images/indesign-logo.png"
+                alt="Indesign" width="48" />
+                <img src="images/illustrator-logo.png"
+                alt="Illustrator" width="48" />
+            </div>
+        </div>
+        </section>
+
+    <!--Projekter sektion-->
+        <section class="Projects container">
+            <!--Overskrift på Projekt sektion-->
+            <h2>
+               <small>
+                Completed
+               </small>
+                Projects
+            </h2>
+            <!--Enkelte projekt boks-->
+            <div class="Projects-box">
+               <article>
+                   <figure>
+                       <img src="images/product-1.jpeg" alt="product"/>
+                            <figcaption>
+                                    <b>
+                                    Notebook
+                                    </b>
+                            </figcaption>
+                   </figure>
+                    <h3>
+                    Product Picture
+                    </h3>
+                    <div>
+                    Adobe Lightroom
+                    </div>
+                    <p>
+                    This project highlights a custom-designed notebook using minimalistic product photography. Edited in Lightroom, it features vibrant colors, soft natural lighting, and a muted background to emphasize the collage-style cover, creating a clean, artistic, and relatable visual presentation.
+                    </p>
+               </article>
+
+            <!--Enkelte projekt boks-->
+               <article>
+                    <!--Billede på projektet-->
+                   <figure>
+                       <img src="images/project-1.png" alt="Project-1"/>
+                       <!--Hover tekst på billedet-->
+                       <figcaption>
+                                <b>
+                                B.J. Trading
+                                </b>
+                        </figcaption>
+                   </figure>
+                   <!--Overskrit på projektet-->
+                   <h3>
+                    Redesign of Website
+                    </h3>
+                   <!--Program brugt til projektet-->
+                   <div>
+                    Figma
+                    </div>
+                   <!--Tekst til projektet-->
+                   <p>
+                    I redesigned BJ-Trading with Figma, crafting a polished prototype that elevates functionality and aesthetics. Every element, from navigation to visuals, was optimized to deliver a seamless, engaging, and user-friendly experience tailored to its audience's needs.
+                    </p>
+               </article>
+
+            <!--Enkelte projekt boks-->
+               <article>
+                    <!--Billede på projektet-->
+                   <figure>
+                       <img src="images/barkbuddy.gif" alt="barkbuddy"/>
+                       <!--Hover tekst på billedet-->
+                       <figcaption>
+                                <b>
+                                Barkbuddy App
+                                </b>
+                        </figcaption>
+                   </figure>
+                   <!--Overskrit på projektet-->
+                   <h3>
+                    Prototyping App
+                    </h3>
+                   <!--Program brugt til projektet-->
+                   <div>
+                    Figma
+                    </div>
+                   <!--Tekst til projektet-->
+                   <p>
+                    With a group of passionate students, and myself BarkBuddy is a prototype app designed to bring dogs and their owners together for fun playdates the design was made from scratch. Created in Figma, it inspires connection, community, and joyful moments for all dog lovers. 
+                    </p>
+               </article>
+            <!--Enkelte projekt boks-->
+               <article>
+                    <!--Billede på projektet-->
+                   <figure>
+                       <img src="images/nxiety-frederik.webp" alt="nxiety picture"/>
+                       <!--Hover tekst på billedet-->
+                       <figcaption>
+                                <b>
+                                Graphic Picture
+                                </b>
+                        </figcaption>
+                   </figure>
+                   <!--Overskrit på projektet-->
+                   <h3>
+                    Graphical Picture
+                    </h3>
+                   <!--Program brugt til projektet-->
+                   <div>
+                    Adobe Photoshop
+                    </div>
+                   <!--Tekst til projektet-->
+                   <p>
+                    I have made this striking image, edited it in Photoshop, used bold contrasts to emphasize emotion. The subject pops with sharp focus, while the textured text in the background adds depth, drawing attention to the internal struggles conveyed visually and symbolically.
+                    </p>
+               </article>
+            <!--Enkelte projekt boks-->
+               <article>
+                    <!--Billede på projektet-->
+                   <figure>
+                       <img src="images/hcaplakat.png" alt="hcaplakat"/>
+                       <figcaption>
+                                <b>
+                                HCAFestivals
+                                </b>
+                        </figcaption>
+                   </figure>
+                   <!--Overskrit på projektet-->
+                   <h3>
+                    Indesign Poster
+                    </h3>
+                   <!--Program brugt til projektet-->
+                    <div>
+                    Adobe Indesign
+                    </div>
+                   <!--Tekst til projektet-->
+                    <p>
+                    I've made this poster, designed in InDesign for the H.C. Andersen Festival project, features a tin soldier as its central element. The design captures the essence of the product we made in our group, blending tradition and creativity to visually represent the magic of Andersen's timeless tales.
+                    </p>
+               </article>
+            <!--Enkelte projekt boks-->
+               <article>
+                    <!--Billede på projektet-->
+                   <figure>
+                       <img src="images/vinyl.gif" alt="vinyl"/>
+                       <figcaption>
+                                <b>
+                                Graphic Animation
+                                </b>
+                        </figcaption>
+                   </figure>
+                   <!--Overskrit på projektet-->
+                    <h3>
+                    Vinyl Player
+                    </h3>
+                   <!--Program brugt til projektet-->
+                    <div>
+                    HTML & CSS
+                    </div>
+                   <!--Tekst til projektet-->
+                    <p>
+                        In this project i showcase a captivating HTML and CSS animation of a spinning vinyl record player. Through seamless motion and nostalgic design, it beautifully combines creativity and technical expertise, bringing the timeless charm of vinyl to life in a dynamic and engaging digital format.
+                    </p>
+               </article>
+            </div>
+        </section>
+
+        <!--Om mig sektionen-->
+        <section class="about-me container">
+            <!--Overskrift på Om mig sektion-->
+            <h2>
+                <small>
+                    About
+                </small>
+                My Work
+            </h2>
+            <!--Tekst container-->
+            <div class="About">
+                <!--Venstre side af container-->
+                <div class="left-column">
+                    <!--Overskrift i venstre side-->
+                    <h3>
+                        Programs i use for my work
+                    </h3>
+                    <!--Teksten i venstre side-->
+                    <p>
+                        <b>"Have you ever wondered how great design comes to life?"</b> It starts with the right tools and I've mastered a suite of industry-leading programs to deliver exceptional results in every project. From crafting stunning visuals to building dynamic digital experiences, my work is powered by the perfect blend of creativity and technology.
+                        Adobe Photoshop and Illustrator are my go-to for creating eye-catching graphics, logos, and custom designs, while InDesign helps me lay out sleek, professional documents and presentations. For motion graphics and video editing, After Effects and Premiere Pro allow me to add energy and storytelling to my projects, whether through subtle animations or bold cinematic cuts. When it comes to interactive and web-based solutions, Visual Studio Code is my trusted platform for clean, efficient coding that brings designs to life online.
+                        Each tool plays a unique role in my creative process, enabling me to deliver polished, professional results tailored to my clients' needs. 
+                    </p>
+                    <p>
+                        Whether I'm building a brand identity, designing user interfaces, or creating engaging video content, I leverage these programs to ensure every detail is perfect and every project exceeds expectations.
+                        With a strong command of these tools, I can bring any idea from concept to completion, helping you stand out in today's competitive market. Let's create something extraordinary together.
+                    </p>
+                </div>
+                <!--Højre side af container-->
+                <div class="right-column">
+                    <!--Overskrift i højre side-->
+                    <h3>
+                        Abit More About Me
+                    </h3>
+                    <!--Teksten i højre side-->
+                    <p>
+                        <b>"What if you could combine simplicity with unforgettable design?"</b> I'm Frederik Løvstad, a 23-year-old multimedia designer based in Odense, Denmark, with a passion for crafting visuals that are both minimalistic and extraordinary. As an up-and-coming talent, I specialize in delivering designs that not only look stunning but also communicate effectively, leaving a lasting impression on every audience.
+                        From clean, intuitive web layouts to dynamic animations and compelling graphic content, my work is driven by precision, creativity, and an unshakable dedication to the craft. I believe in stripping away the unnecessary, allowing your message to shine with clarity and purpose. Each project I take on is tailored to meet the unique needs of clients, ensuring that the visuals don't just stand out they elevate your brand to new heights.
+                        Fast-working and detail-oriented, I thrive on turning ambitious ideas into reality.
+                    </p>
+                    <p>
+                        Whether collaborating with big companies or growing startups, my approach is the same: deliver exceptional results that align with your vision and goals.
+                        If you're looking for a designer who combines minimalism with bold creativity and a sharp eye for detail, let's connect. Together, we can create visuals that don't just captivate. They define your brand.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!--Footeren på hjemmeside-->
+    <footer class="footer">
+        <!--Footer container-->
+        <div class="footer-container">
+          <!-- Venstre sektion af footeren -->
+          <div class="footer-left">
+            <div class="footer-section">
+                <a href="contact.html">Contact</a>
+            </div>
+          </div>
+          
+          <!-- Center Sektion logo -->
+          <div class="footer-center">
+            <img src="images/nxiety-logo-white.png" alt="Logo" class="footer-logo">
+          </div>
+      
+          <!-- Højre sektion: Sociale ikoner -->
+          <div class="footer-right">
+            <!--Sociale ikoner-->
+            <div class="footer-socials">
+                <a href="https://github.com/Loevstad14"><img src="images/githublogo.png" alt="GitHub" width="32" /></a>
+                <a href="https://www.linkedin.com/in/frederik-l%C3%B8vstad-5641a9328/"><img src="images/linkedinlogo.png" alt="LinkedIn" width="32" /></a>
+                <a href="https://www.instagram.com/frederikloevstad/"><img src="images/instagram.png" alt="Instagram" width="32" /></a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Bundsektionen: Copyright -->
+        <div class="footer-bottom">
+          <p> &copy;2024 NXIETY STUDIOS. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
